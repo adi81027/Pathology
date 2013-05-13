@@ -1,0 +1,4 @@
+1--what is regular graph.
+2--what is regular plane?
+3--what is degree of regular graph?
+4--how we calculate degree of regular graph?

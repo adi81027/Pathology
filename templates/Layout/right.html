@@ -1,0 +1,17 @@
+{% block base_content.right %}
+    <div class="span9">
+
+        <div id="form">
+
+            {% for field in form %}
+                <tr>
+                    <td>{{ field.label_tag }}</td>
+                    <td>{{ field }}</td>
+                </tr>
+            {% endfor %}
+
+        </div>
+
+
+    </div><!--/span-->
+{% endblock  %}
